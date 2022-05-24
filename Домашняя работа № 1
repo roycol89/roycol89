@@ -1,0 +1,30 @@
+print("Задание 1")
+print("Сумма =", sum(range(88888888)))
+
+print("Задание 2")
+a = [3, 4, 56, 100, 2, 2, 3]
+b = sum(a)
+c = len(a)
+print ("Среднее арифметическое =", b/c)
+
+print("Задание 3")
+this_line = "asdxfghyxyx"
+new_line = ""
+for x in this_line:
+    if x == "x":
+        new_line += "y"
+    else:
+        new_line += x
+print(this_line)
+print(new_line)
+
+print("Задание 4")
+numbers = [3, 4, 56,100, 15, 2, 20, 30]
+composition = 1
+for n in numbers:
+    if n // 3 == n / 3 and n // 5 == n / 5:
+        composition *= n
+print("Произведение чисел кратных 3 и 5 =", composition)
+
+print("Задание 5")
+print(this_line.replace("x", "y"))
